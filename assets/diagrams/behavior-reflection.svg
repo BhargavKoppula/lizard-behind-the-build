@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 360" role="img" aria-labelledby="title desc">
+  <title id="title">From session context to personal reflection</title>
+  <desc id="desc">A conceptual diagram: a person chooses a session context; the browser can observe limited interaction or compatible media signals; Lizard assembles a descriptive session summary; the person interprets it. The summary is not a measure of attention.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#526276"/></marker>
+    <style>
+      .bg{fill:#f6f8fb}.card{fill:#fff;stroke:#cbd5e1;stroke-width:2}.accent{fill:#edf4ff;stroke:#6d8fcb}.warn{fill:#fff7e6;stroke:#d7a23d}.title{font:700 18px system-ui,sans-serif;fill:#172235}.body{font:14px system-ui,sans-serif;fill:#425168}.caption{font:700 15px system-ui,sans-serif;fill:#36465c}.edge{stroke:#526276;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1120" height="360" rx="24"/>
+  <rect class="card accent" x="32" y="65" width="230" height="168" rx="18"/>
+  <text class="title" x="58" y="104">1 · Session context</text>
+  <text class="body" x="58" y="139"><tspan x="58" dy="0">A person chooses</tspan><tspan x="58" dy="23">Work, Reading or Video.</tspan><tspan x="58" dy="28">This is a chosen context,</tspan><tspan x="58" dy="21">not a detected state.</tspan></text>
+  <path class="edge" d="M272 149 H307"/>
+  <rect class="card" x="320" y="65" width="230" height="168" rx="18"/>
+  <text class="title" x="346" y="104">2 · Limited signals</text>
+  <text class="body" x="346" y="139"><tspan x="346" dy="0">Some interaction events</tspan><tspan x="346" dy="23">or compatible media state</tspan><tspan x="346" dy="28">may be visible to the</tspan><tspan x="346" dy="21">browser extension.</tspan></text>
+  <path class="edge" d="M560 149 H595"/>
+  <rect class="card accent" x="608" y="65" width="230" height="168" rx="18"/>
+  <text class="title" x="634" y="104">3 · Session summary</text>
+  <text class="body" x="634" y="139"><tspan x="634" dy="0">A timeline or simple</tspan><tspan x="634" dy="23">summary describes what</tspan><tspan x="634" dy="28">the product observed</tspan><tspan x="634" dy="21">and derived.</tspan></text>
+  <path class="edge" d="M848 149 H883"/>
+  <rect class="card warn" x="896" y="65" width="192" height="168" rx="18"/>
+  <text class="title" x="920" y="104">4 · Human meaning</text>
+  <text class="body" x="920" y="139"><tspan x="920" dy="0">The person supplies</tspan><tspan x="920" dy="23">the context and decides</tspan><tspan x="920" dy="28">what, if anything, it</tspan><tspan x="920" dy="21">means to them.</tspan></text>
+  <rect x="170" y="278" width="780" height="48" rx="14" fill="#e8eef5"/>
+  <text class="caption" x="560" y="308" text-anchor="middle">Interaction signals are not measurements of attention, focus, learning or productivity.</text>
+</svg>
